@@ -8,8 +8,19 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface CustomTextField : NSTextField
 
+@end
+
+@interface CustomTextfieldCell : NSTextFieldCell
+
+@end
+
+@interface ViewController : NSViewController
+{
+    IBOutlet NSTextField *text_field_;
+	IBOutlet NSTextView *text_view_;
+}
 
 @end
 
