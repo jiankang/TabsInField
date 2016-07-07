@@ -16,6 +16,10 @@
 
 @end
 
+@interface CustomView : NSView
+
+@end
+
 @interface ViewController : NSViewController
 {
     IBOutlet NSTextField *text_field_;
